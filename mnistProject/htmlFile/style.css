@@ -1,0 +1,101 @@
+
+body
+{
+   background-color: lightblue;
+    
+}
+
+h1
+{  font-family: "Comic Sans MS", cursive, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: black;
+	font-size: 80px;
+	font-weight: 400;
+	z-index: -1;
+}
+
+h2
+{  font-family: "Comic Sans MS", cursive, sans-serif;
+	position: absolute;
+	top: 160px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	font-weight: 400;
+	z-index: -1;
+}
+
+h3
+{  font-family: "Comic Sans MS", cursive, sans-serif;
+	position: absolute;
+	top: 295px;
+	left: 110px;
+	color: red;
+	font-size: 20px;
+	font-weight: 400;
+	z-index: -1;
+}
+
+p1
+{ position: absolute;
+  top: 550px;
+  right: 350px;
+}
+
+p2
+{ position: absolute;
+  top: 250px;
+  right: 80px;
+}
+
+mainDiv{
+
+Width:100%;
+
+}
+
+
+.clButton {
+	background-color:red;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:15px;
+	padding:6px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+
+.clButton:hover {
+	background-color: #4DAF7C;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#4DAF7C',GradientType=0);
+	background-color:#4DAF7C;
+}
+
+.prButton {
+	background-color:red;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:15px;
+	padding:6px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.prButton:hover {
+	background-color: #4DAF7C;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#4DAF7C',GradientType=0);
+	background-color:#4DAF7C;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
